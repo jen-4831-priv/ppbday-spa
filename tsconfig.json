@@ -13,5 +13,5 @@
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./src/**.*"],
+  "include": ["./src/**.*", "./src/index.d.ts"],
 }

@@ -1,11 +1,5 @@
 import * as React from 'react';
-// import { InteractiveLink } from './InteractiveLink';
 import { Switch, Route } from 'react-router-dom';
-// import { Home } from './Home';
-// import { ExampleComponent } from './ExampleComponent';
-// import { ExampleTwoDeepComponent } from './ExampleTwoDeepComponent';
-// import { SitemapLinkGenerator } from './SitemapLinkGenerator';
-// import { PageNotFound } from './PageNotFound';
 import BDCake from './bd-cake/bdCake';
 import Home from './home/home';
 import Button from './components/button/button';
@@ -24,32 +18,10 @@ export const App: React.VFC = () => (
 
     <Switch>
       <Route path="/" exact component={Home} />
-      {/* <Home />
-            </Route> */}
+      <Route path="/home" exact component={Home} />
       <Route path="/bdCake" exact component={BDCake} />
-      {/* <BDCake />
-            </Route> */}
       <Route path="/bdCard" exact component={BDCard} />
-      {/* <BDCard />
-            </Route> */}
       <Route path="/fav-video" exact component={Video} />
-      {/* <Video /> */}
-      {/* </Route> */}
     </Switch>
-    {/* <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/example" component={ExampleComponent} />
-      <Route
-        exact
-        path="/example/two-deep"
-        component={ExampleTwoDeepComponent}
-      />
-      <Route
-        exact
-        path="/sitemap-link-generator"
-        component={SitemapLinkGenerator}
-      />
-      <Route component={PageNotFound} />
-    </Switch> */}
   </div>
 );

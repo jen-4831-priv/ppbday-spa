@@ -20,8 +20,8 @@ const CardText = () => {
       </p>
       <p>
         You always bring joy to all those gloomy hopeless days. Even if it's not
-        forever that we are in others lives, I want to precious whatever we have
-        left.
+        forever that we are in each others lives, I want to precious whatever we
+        have left.
       </p>
       <p>
         I hope each and every day you can be happy and achieve anything in life,

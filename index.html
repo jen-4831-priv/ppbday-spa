@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Single Page Apps for GitHub Pages</title>
+    <title>To someone special</title>
     <meta name="description" content="Lightweight solution for deploying single page apps with GitHub Pages.">
 
     <style>
@@ -21,16 +21,14 @@
       /*pass window height (w/o scroll bars) down to react app, note can't use vh because that
       includes scroll bars and mobile browser footer, etc so doesn't give viewable area*/
       html, body { height: 100%; }
-      html { background-color: rgb(0, 120, 0); }
-      #root { background-color: #F0F0F0; min-height: 100%; }
+      #root { min-height: 100%; }
     </style>
 
     <!-- favicon -->
-    <link rel="icon" type=”image/svg+xml” href="/favicon/green-grid-144-168-192.svg">
-    <link rel="alternate icon" type="image/png" href="/favicon/green-grid-144-168-192-512x512.png">
-    <link rel="apple-touch-icon" href="/favicon/green-grid-144-168-192-180x180.png">
+    <link rel="icon" type=”image/svg+xml” href="/favicon/favicon.ico">
+    <link rel="alternate icon" type="image/png" href="/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" href="/favicon/android-chrome-192x192.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-    <meta name="theme-color" content="#000000">
 
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
@@ -46,7 +44,7 @@
       // the single page app to route accordingly.
       (function(l) {
         if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
+          var decoded = l.search.slice(1).split('&').map(function(s) {
             return s.replace(/~and~/g, '&')
           }).join('?');
           window.history.replaceState(null, null,

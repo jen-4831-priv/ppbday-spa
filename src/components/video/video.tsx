@@ -2,7 +2,7 @@ import React from 'react';
 
 const Video = () => {
   return (
-    <div className="bd-cake">
+    <div>
       <iframe
         title="Lemonade"
         width="619"
